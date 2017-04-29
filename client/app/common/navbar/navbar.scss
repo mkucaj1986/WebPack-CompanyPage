@@ -1,3 +1,94 @@
+ .smaller {
+     .top-nav-section {
+         display: none;
+     }
+     .navbar-header {
+         padding: 5px 0 !important;
+     }
+ }
+ 
  .top-nav-section {
+ 	-webkit-transition: all 0.35s ease;
+ 	transition: all 0.35s ease;
      background: #f4f4f4;
+     border-bottom: 1px solid #090909;
+     .b-contacts-list {
+         display: block;
+         padding: 5px 0;
+         float: left;
+         .b-contacts-item {
+             display: inline-block;
+             float: left;
+             margin: 0 15px 0 0;
+         }
+     }
+ }
+ 
+ .navbar-inverse {
+     -webkit-transition: all 0.35s ease;
+     transition: all 0.35s ease;
+     background-color: #fff;
+     .navbar-brand {
+         color: #000;
+         font-size: 20px;
+         &:hover {
+             color: #777;
+         }
+         &:focus {
+             color: #777;
+         }
+     }
+     a {
+         border-bottom: 3px solid transparent;
+         font-family: 'Lato';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         -webkit-transition: all .35s;
+         -o-transition: all .35s;
+         -moz-transition: all .35s;
+         transition: all .35s;
+     }
+     .for_email {
+         a {
+             color: #000;
+             font-size: 14px;
+             &:hover {
+                 color: #777;
+             }
+             &:focus {
+                 color: #777;
+             }
+         }
+     }
+     .for_phone {
+         font-size: 13px;
+         position: relative;
+         top: 2px;
+     }
+     .navbar-header {
+         padding: 15px 0;
+     }
+ }
+ 
+ .navbar-inverse .navbar-nav > li > a:hover,
+ .navbar-inverse .navbar-nav > li > a:focus {
+     color: #000;
+     background-color: transparent;
+ }
+ 
+ .navbar-inverse .navbar-nav > li > a {
+     padding: 30px 15px;
+ }
+ 
+ .smaller .navbar-nav > li > a {
+     padding: 19px 15px;
+ }
+ 
+ .navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+ .navbar-inverse .navbar-nav > .active > a:focus {
+     color: #000;
+     background-color: #fff;
+     border-bottom: 3px solid #000;
  }

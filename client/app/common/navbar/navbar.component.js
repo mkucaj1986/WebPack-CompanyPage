@@ -7,7 +7,9 @@ const navbarComponent = () => ({
   controller: controller,
   restrict: 'E',
   controllerAs: 'vm',
-  scope: {},
+  scope: {
+  	sticky: '='
+  },
   bindToController: true
 });
 
