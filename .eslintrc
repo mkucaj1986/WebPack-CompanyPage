@@ -122,6 +122,7 @@
     "computed-property-spacing": 2,
     "consistent-this": [
       "error",
+      "that",
       "vm"
     ],
     "eol-last": 2,

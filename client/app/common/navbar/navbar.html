@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header col-sm-4 col-md-4 col-lg-4">
             <a class="text-capitalize navbar-brand" ui-sref="home" translate="{{vm.title | uppercase}}"></a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -23,7 +23,7 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+        <div id="navbar" class="collapse navbar-collapse col-sm-8 col-md-8 col-lg-8">
             <ul class="nav navbar-nav pull-right">
                 <li ui-sref-active="active">
                     <a ui-sref="home">Home</a>
@@ -32,13 +32,13 @@
                     <a ui-sref="about">About</a>
                 </li>
                 <li ui-sref-active="active">
-                    <a ui-sref="about">Services</a>
+                    <a ui-sref="services">Services</a>
                 </li>
                 <li ui-sref-active="active">
-                    <a ui-sref="about">Gallery</a>
+                    <a ui-sref="gallery">Gallery</a>
                 </li>
                 <li ui-sref-active="active">
-                    <a ui-sref="about">Contact</a>
+                    <a ui-sref="contact">Contact</a>
                 </li>
             </ul>
             <!-- <localise></localise> -->

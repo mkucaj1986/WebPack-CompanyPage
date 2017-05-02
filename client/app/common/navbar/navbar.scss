@@ -7,9 +7,17 @@
      }
  }
  
+ .navbar-nav {
+     @media all and (max-width: 768px) {
+         width: 100%;
+         margin: 0;
+         padding: 0;
+     }
+ }
+ 
  .top-nav-section {
- 	-webkit-transition: all 0.35s ease;
- 	transition: all 0.35s ease;
+     -webkit-transition: all 0.35s ease;
+     transition: all 0.35s ease;
      background: #f4f4f4;
      border-bottom: 1px solid #090909;
      .b-contacts-list {
@@ -92,4 +100,43 @@
      color: #000;
      background-color: #fff;
      border-bottom: 3px solid #000;
+ }
+ 
+ .navbar-inverse .navbar-toggle .icon-bar {
+     background-color: #000;
+ }
+ 
+ .navbar-toggle {
+     -webkit-transition: all .35s;
+     -o-transition: all .35s;
+     -moz-transition: all .35s;
+     transition: all .35s;
+ }
+ 
+ .navbar-inverse .navbar-toggle:hover .icon-bar,
+ .navbar-inverse .navbar-toggle:focus .icon-bar {
+     background-color: #fff;
+ }
+ 
+ .navbar-inverse .navbar-brand {
+     @media all and (max-width: 1024px) {
+         font-size: 18px;
+         width: 215px;
+         padding: 5px 0 0 10px;
+         line-height: 1.2em;
+         .facet_sidebar {
+             display: none;
+         }
+     }
+ }
+ 
+ .nav > li {
+     @media all and (max-width: 768px) {
+         text-align: center;
+     }
+     a {
+         @media all and (max-width: 768px) {
+             padding: 3px 0;
+         }
+     }
  }

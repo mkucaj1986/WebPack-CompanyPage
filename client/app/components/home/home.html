@@ -1,13 +1,50 @@
 <main>
-   <div id="carousel" class="carousel carousel-fade">
-       <div uib-carousel active="vmactive" interval="vm.myInterval" no-wrap="vm.noWrapSlides">
-           <div uib-slide ng-repeat="slide in vm.slides track by slide.id" index="slide.id">
-               <img ng-src="{{slide.image}}" style="margin:auto;">
-               <div class="carousel-caption">
-                   <h4>Slide {{slide.id}}</h4>
-                   <p>{{slide.text}}</p>
-               </div>
-           </div>
-       </div>
-   </div>
+    <carousel></carousel>
+    <div class="container">
+        <h1>Tiling Marble Bathroom & Kitchen Services London</h1>
+        <section class="home-triple-section">
+            <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h3 class="prev-indent-bot">About Us</h3>
+                <p class="prev-indent-bot">
+                    A meeting will be arranged for one of our installers to visit you at your home to discuss your project in more detail including different designs and products to suit your requirements and budget. This will enable the installer to put a detailed quotation together for the work.
+                </p>
+            </article>
+            <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h3 class="prev-indent-bot">Testimonials</h3>
+                <p class="prev-indent-bot">
+                    We specialise in the complete refurbishment of bathrooms and wet rooms working to your specifications so whether you are looking for a cutting edge modern finish, a luxurious traditional look or a simple straightforward refit we will be able to assist.</p>
+                <h5>Brendan Raleigh Managing Director</h5>
+            </article>
+            <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h3 class="prev-indent-bot">Service</h3>
+                <p class="prev-indent-bot">
+                    Our skilled fitters will carry out all the necessary work including initial rip-out of the old room, plumbing, tiling, carpentry, flooring, plastering, electrics and decoration to give you a fully finished bathroom ready to use. As ‘The Bathroom Installer’ is a completely independent company we are able to advise and supply any manufacturer of equipment and so really can offer the most suitable products for you and your bathroom.
+                </p>
+            </article>
+        </section>
+        <section id="recent-projects" class="recent-projects">
+            <h2>RECENT PROJECTS</h2>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <img class="img-responsive" src="./app/resources/images/recent-projects/recent-project-1.jpg" alt="brendan-tiles" />
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <img class="img-responsive" src="./app/resources/images/recent-projects/recent-project-2.jpg" alt="brendan-tiles" />
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <img class="img-responsive" src="./app/resources/images/recent-projects/recent-project-3.jpg" alt="brendan-tiles" />
+            </div>
+        </section>
+        <section id="get-quote" class="get-quote">
+            <div class="get-quote-left col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <h3>GET A QUOTE TODAY...</h3>
+                <h4>Get in touch with us and we would be happy to arrange a visit.</h4>
+            </div>
+            <div class="get-quote-right col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="get-quote-right-contact">
+                    <i class="fa fa-envelope"></i>
+                    <a ui-sref="contact" class="contant-us">CONTACT</a>
+                </div>
+            </div>
+        </section>
+    </div>
 </main>

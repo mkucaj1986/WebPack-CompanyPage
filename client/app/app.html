@@ -1,4 +1,30 @@
 <div class="app">
-	<navbar sticky="vm.sticky"></navbar>
-	<div ui-view class="main-wrapper"></div>
+    <navbar sticky="vm.sticky"></navbar>
+    <div ui-view class="main-wrapper"></div>
+    <footer id="footer-part" class="footer-part">
+        <div class="container">
+            <div class="footer-left-part col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                Brendan Raleigh © 2017, <a class="web-company" href="http://www.michalkucaj.pl">Web Design and developed by Michal Kucaj</a>
+            </div>
+            <div class="footer-nav col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <ul class="nav navbar-nav pull-right">
+                    <li ui-sref-active="active">
+                        <a ui-sref="home">Home</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="about">About</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="about">Services</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="about">Gallery</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="about">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </div>

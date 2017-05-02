@@ -1,0 +1,13 @@
+[{
+    id: 0,
+    "src": "./app/resources/images/1.jpg",
+    "info": "Bathroom && Bathroom Services"
+}, {
+	"id": 1,
+    "src": "./app/resources/images/2.jpg",
+    "info": "Bathroom Kitchen"
+}, {
+	"id": 2,
+    "src": "./app/resources/images/3.jpg",
+    "info": "Tiling and Services"
+}]
