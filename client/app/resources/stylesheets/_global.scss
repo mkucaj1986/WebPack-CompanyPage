@@ -1,3 +1,6 @@
+body{
+	font-family: 'Lato', 'open-sans';
+}
 a {
     -webkit-transition: all .35s;
     -o-transition: all .35s;
@@ -6,7 +9,12 @@ a {
 }
 
 .main-wrapper {
-    padding-top: 96px;
+    display: inline-block;
+    float: left;
+    min-height: 836px;
+    position: relative;
+    padding: 96px 0 0 0;
+    width: 100%;
 }
 
 h1 {
@@ -82,4 +90,7 @@ h2 {
 p {
     margin: 0;
     padding: 0;
+    font-family: 'Lato';
+    font-size: 15px;
+    text-indent: 25px;
 }

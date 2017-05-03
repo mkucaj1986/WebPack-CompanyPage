@@ -1,3 +1,20 @@
+gallery {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 30px 0;
+    .gallery-box {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        position: relative;
+        padding: 10px 0;
+        .gallery-box-img {
+        	margin: 10px 0;
+        }
+    }
+}
 .gallery {
-  color:black;
+    color: black;
 }

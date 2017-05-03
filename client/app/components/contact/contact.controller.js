@@ -1,6 +1,6 @@
 class ContactController {
 	constructor(){
-		this.name = 'contact';
+		this.name = 'Contact';
 	}
 }
 
