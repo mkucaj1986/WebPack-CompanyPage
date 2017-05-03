@@ -11,6 +11,8 @@ import AppComponent from './app.component';
 import Components from './components/components';
 import 'bootstrap-sass/assets/javascripts/bootstrap.min.js';
 import 'font-awesome/css/font-awesome.css';
+import 'lightbox2/src/css/lightbox.css';
+import 'lightbox2/src/js/lightbox.js';
 
 angular.module('app', [
   'app.config',

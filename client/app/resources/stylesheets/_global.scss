@@ -1,11 +1,17 @@
-body{
-	font-family: 'Lato', 'open-sans';
+body {
+    font-family: 'Lato', 'open-sans';
 }
+
 a {
     -webkit-transition: all .35s;
     -o-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+img {
+    width: 100%;
+    vertical-align: top;
 }
 
 .main-wrapper {

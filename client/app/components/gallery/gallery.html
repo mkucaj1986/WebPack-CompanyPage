@@ -1,8 +1,10 @@
 <div class="container">
-    <h1>{{ vm.name }}</h1>
-    <section id="gallery-box" class="gallery-box">
-        <div class="gallery-box-img col-xs-12 col-sm-12 col-md-4 col-lg-4" data-ng-repeat="slide in vm.galleryImages track by slide.id">
-            <img class="img-responsive" ng-src="{{slide.src}}" alt="brnadan-tiles" />
-        </div>
-    </section>
+	<h1>{{ vm.name }}</h1>
+	<section id="gallery-box" class="gallery-box">
+		<div class="gallery-box-img col-xs-12 col-sm-12 col-md-4 col-lg-4" data-ng-repeat="slide in vm.galleryImages track by slide.id">
+			<a class="gallery-img" href="{{slide.src}}" data-lightbox="image-1" data-title="Brendan-Tiles">
+				<img  class="img-responsive" ng-src="{{slide.src}}" alt="brnadan-tiles" />
+			</a>
+		</div>
+	</section>
 </div>

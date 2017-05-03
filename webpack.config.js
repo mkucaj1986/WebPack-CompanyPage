@@ -31,19 +31,22 @@ module.exports = {
             loader: 'style!css'
         }, {
             test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
-            loader: "url?limit=10000&mimetype=application/font-woff"
+            loader: 'url?limit=10000&mimetype=application/font-woff'
         }, {
             test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/,
-            loader: "url?limit=10000&mimetype=application/font-woff"
+            loader: 'url?limit=10000&mimetype=application/font-woff'
         }, {
             test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
-            loader: "url?limit=10000&mimetype=application/octet-stream"
+            loader: 'url?limit=10000&mimetype=application/octet-stream'
         }, {
             test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
-            loader: "file"
+            loader: 'file'
         }, {
             test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-            loader: "url?limit=10000&mimetype=image/svg+xml"
+            loader: 'url?limit=10000&mimetype=image/svg+xml'
+        }, {
+            test: /\.(jpe?g|gif|png)$/,
+            loader: 'url-loader?limit=100000'
         }]
     },
     sassResources: path.resolve(__dirname, './client/app/resources/stylesheets/base.scss')
