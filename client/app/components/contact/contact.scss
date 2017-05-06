@@ -1,5 +1,17 @@
+contact {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 30px 0;
+}
+
 .contact {
     color: black;
+}
+
+.contact-box {
+    padding: 50px 0 0 0;
 }
 
 #feedback-page {
@@ -52,12 +64,16 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     border: 3px solid rgba(0, 0, 0, 0);
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
 }
 
 .feedback-input:focus {
     background: #fff;
     box-shadow: 0;
-    border: 3px solid #3498db;
+    border: 3px solid #000;
     color: #3498db;
     outline: none;
     padding: 13px 13px 13px 54px;
@@ -171,5 +187,87 @@ textarea:focus {
         margin-left: 0;
         padding-left: 3%;
         padding-right: 3%;
+    }
+}
+
+.contact-thx-info-box {
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    padding: 0;
+    .contact-thx-info {
+        color: green;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.fade-in {
+    -webkit-animation: fadein 10s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 10s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 10s;
+    /* Internet Explorer */
+    -o-animation: fadein 10s;
+    /* Opera < 12.1 */
+    animation: fadein 10s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+/* Firefox < 16 */
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+/* Internet Explorer */
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+/* Opera < 12.1 */
+
+@-o-keyframes fadein {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
     }
 }

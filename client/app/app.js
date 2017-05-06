@@ -30,9 +30,6 @@ angular.module('app', [
   $translateProvider.useSanitizeValueStrategy('escaped');
   $translateProvider.preferredLanguage('en');
 
-  $locationProvider.html5Mode({
-    enabled: true,
-    requireBase: false
-  });
+  $locationProvider.html5Mode(true);
   $urlRouterProvider.otherwise('/');
 }).directive('app', AppComponent);

@@ -15,9 +15,6 @@ class NavbarController {
             this.nav.classList.remove('smaller');
         }
     }
-    $onInit() {
-        console.log('on init');
-    }
 }
 
 export default NavbarController;

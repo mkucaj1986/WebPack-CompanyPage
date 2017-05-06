@@ -47,6 +47,15 @@ module.exports = {
         }, {
             test: /\.(jpe?g|gif|png)$/,
             loader: 'url-loader?limit=100000'
+        }, {
+            test: /\.php$/,
+            loaders: [
+                'html-minify',
+                'php-loader'
+            ]
+        }, {
+            test: /\.json$/,
+            loader: 'json'
         }]
     },
     sassResources: path.resolve(__dirname, './client/app/resources/stylesheets/base.scss')
