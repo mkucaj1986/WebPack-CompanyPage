@@ -14,7 +14,7 @@ class CarouselController {
             id: 0,
             src: './app/resources/images/1.jpg',
             tel: 'tel. 07938958521',
-            info: 'Bathroom && Bathroom Services'
+            info: 'Bathroom && Kitchen Services'
         }, {
             id: 1,
             src: './app/resources/images/2.jpg',
@@ -25,6 +25,11 @@ class CarouselController {
             src: './app/resources/images/3.jpg',
             tel: 'tel. 07938958521',
             info: 'Tiling and Services'
+        }, {
+            id: 3,
+            src: './app/resources/images/4.jpg',
+            tel: 'tel. 07938958521',
+            info: 'Tiles and Marble'
         }];
     }
 
