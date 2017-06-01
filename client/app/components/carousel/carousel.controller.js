@@ -18,7 +18,7 @@ class CarouselController {
         }, {
             id: 1,
             src: './app/resources/images/2.jpg',
-            tel: 'tel. 07938958521',
+            tel: 'tel. 44 203485 4888',
             info: 'Bathroom Kitchen'
         }, {
             id: 2,
@@ -28,7 +28,7 @@ class CarouselController {
         }, {
             id: 3,
             src: './app/resources/images/4.jpg',
-            tel: 'tel. 07938958521',
+            tel: 'tel. 44 203485 4888',
             info: 'Tiles and Marble'
         }];
     }
