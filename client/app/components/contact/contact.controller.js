@@ -40,6 +40,11 @@ class ContactController {
             this.result = 'bg-danger';
         }
 
+        this.formData.inputEmail = '';
+        this.formData.inputName = '';
+        this.formData.inputSubject = '';
+        this.formData.inputMessage = '';
+
         this.$timeout(() => {
             jQuery(el).removeClass('fade-in');
             jQuery(el).css('display', 'none');
