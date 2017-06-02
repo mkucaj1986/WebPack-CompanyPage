@@ -5,6 +5,8 @@ import servicesComponent from './services.component';
 const servicesModule = angular.module('services', [
     uiRouter
 ]).config(($stateProvider) => {
+	'ngInject';
+	
     $stateProvider.state('services', {
         url: '/services',
         template: '<services></services>'

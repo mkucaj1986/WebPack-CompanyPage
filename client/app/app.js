@@ -22,6 +22,8 @@ angular.module('app', [
   Components.name,
   ngTranslate
 ]).config(($urlRouterProvider, $locationProvider, $translateProvider, ENV) => {
+  'ngInject';
+  
   $translateProvider.useStaticFilesLoader({
     prefix: 'app/i18n/',
     suffix: '.json'

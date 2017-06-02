@@ -97,6 +97,8 @@
 	__webpack_require__(99);
 	
 	_angular2['default'].module('app', ['app.config', _angularUiBootstrap2['default'], _angularUiRouter2['default'], _commonCommon2['default'].name, _componentsComponents2['default'].name, _angularTranslate2['default']]).config(function ($urlRouterProvider, $locationProvider, $translateProvider, ENV) {
+	  'ngInject';
+	
 	  $translateProvider.useStaticFilesLoader({
 	    prefix: 'app/i18n/',
 	    suffix: '.json'
@@ -64633,6 +64635,8 @@
 	var _commonCommon2 = _interopRequireDefault(_commonCommon);
 	
 	var homeModule = _angular2['default'].module('home', [_angularUiRouter2['default'], _commonCommon2['default'].name]).config(function ($stateProvider) {
+	  'ngInject';
+	
 	  $stateProvider.state('home', {
 	    url: '/',
 	    template: '<home></home>'
@@ -65564,6 +65568,8 @@
 	var _servicesComponent2 = _interopRequireDefault(_servicesComponent);
 	
 	var servicesModule = _angular2['default'].module('services', [_angularUiRouter2['default']]).config(function ($stateProvider) {
+	    'ngInject';
+	
 	    $stateProvider.state('services', {
 	        url: '/services',
 	        template: '<services></services>'
@@ -65701,6 +65707,8 @@
 	var _galleryComponent2 = _interopRequireDefault(_galleryComponent);
 	
 	var galleryModule = _angular2['default'].module('gallery', [_angularUiRouter2['default']]).config(function ($stateProvider) {
+	    'ngInject';
+	
 	    $stateProvider.state('gallery', {
 	        url: '/gallery',
 	        template: '<gallery></gallery>'
@@ -65891,6 +65899,8 @@
 	var _contactComponent2 = _interopRequireDefault(_contactComponent);
 	
 	var contactModule = _angular2['default'].module('contact', [_angularUiRouter2['default']]).config(function ($stateProvider) {
+	    'ngInject';
+	
 	    $stateProvider.state('contact', {
 	        url: '/contact',
 	        template: '<contact></contact>'

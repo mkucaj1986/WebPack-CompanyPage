@@ -5,6 +5,8 @@ import contactComponent from './contact.component';
 const contactModule = angular.module('contact', [
     uiRouter
 ]).config(($stateProvider) => {
+	'ngInject';
+	
     $stateProvider.state('contact', {
         url: '/contact',
         template: '<contact></contact>'

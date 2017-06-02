@@ -1,5 +1,4 @@
 path = require('path');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
     devtool: 'sourcemap',
@@ -60,8 +59,5 @@ module.exports = {
             loader: 'json'
         }]
     },
-    plugins: [
-        new UglifyJSPlugin()
-      ],
     sassResources: path.resolve(__dirname, './client/app/resources/stylesheets/base.scss')
 };

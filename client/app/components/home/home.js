@@ -7,6 +7,8 @@ const homeModule = angular.module('home', [
   uiRouter,
   Common.name
 ]).config(($stateProvider) => {
+	'ngInject';
+	
   $stateProvider.state('home', {
     url: '/',
     template: '<home></home>'

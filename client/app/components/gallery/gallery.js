@@ -5,6 +5,8 @@ import galleryComponent from './gallery.component';
 const galleryModule = angular.module('gallery', [
     uiRouter
 ]).config(($stateProvider) => {
+	'ngInject';
+	
     $stateProvider.state('gallery', {
         url: '/gallery',
         template: '<gallery></gallery>'
