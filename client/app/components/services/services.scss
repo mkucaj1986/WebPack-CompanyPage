@@ -40,7 +40,7 @@ services {
         }
         p {
             padding: 30px 0 0 0;
-            @media all and (max-width: 768px) {
+            @media all and (max-width: 767px) {
                 float: left;
             }
         }

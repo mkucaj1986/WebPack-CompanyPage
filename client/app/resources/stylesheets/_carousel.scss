@@ -27,7 +27,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     width: 400px;
     font-size: 25px;
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 767px) {
         bottom: 34px;
         width: 100%;
         left: 0;
@@ -84,7 +84,7 @@
 }
 
 .carousel .carousel-inner .item {
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 767px) {
         width: 100%;
     }
 }

@@ -22,7 +22,7 @@ img {
     position: relative;
     padding: 96px 0 0 0;
     width: 100%;
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 767px) {
         padding: 105px 0 0 0;
     }
 }
@@ -50,7 +50,7 @@ h2 {
     float: left;
     padding: 10px 0 50px 0;
     width: 100%;
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 767px) {
         padding: 10px 0;
     }
     @media all and (max-width: 1024px) {
@@ -81,9 +81,9 @@ h2 {
 .footer-left-part {
     display: block;
     float: left;
-    padding: 16px 0 0 0;
-    @media all and (max-width: 768px) {
-        width: 176px;
+    padding: 10px 0;
+    @media all and (max-width: 767px) {
+        width: 265px;
     }
 }
 

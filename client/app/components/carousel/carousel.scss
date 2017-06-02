@@ -1,6 +1,12 @@
 .carousel {
-    color: black;
-    @media all and (max-width: 768px) {
+    display: black;
+    @media all and (max-width: 1024px) {
         display: none;
     }
+}
+.carousel-mobile{
+	display: none;
+	@media all and (max-width: 1024px) {
+	    display: block;
+	}
 }

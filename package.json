@@ -31,6 +31,8 @@
     "gulp-webpack": "^1.5.0",
     "jquery": "^2.2.4",
     "karma": "^0.12.31",
+    "ng-annotate-loader": "^0.2.0",
+    "ng-annotate-webpack-plugin": "^0.2.1-pre",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.1.12",
     "karma-mocha": "^0.1.10",
@@ -51,6 +53,7 @@
     "sass-loader": "^4.0.0",
     "sass-resources-loader": "^1.0.2",
     "style-loader": "^0.12.2",
+    "uglifyjs-webpack-plugin": "^0.4.3",
     "url-loader": "^0.5.8",
     "webpack": "^1.13.1",
     "yargs": "^3.9.0"
